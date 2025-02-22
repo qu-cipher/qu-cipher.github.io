@@ -1,0 +1,24 @@
+:root {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+* {
+    margin:              0;
+    padding:             0;
+    user-select:         none;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+.fade-up {
+    opacity:     0;
+    transform:   translateY(50px);
+    transition:  opacity 1s ease-out, transform 1s ease-out; 
+}
+
+.fade-up.show {
+    opacity:    1;
+    transform:  translateY(0);
+}

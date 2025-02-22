@@ -1,0 +1,38 @@
+.bg-img-container {
+    position:         fixed;
+    top:              0;
+    left:             0;
+    width:            100%;
+    height:           100%;
+    z-index:          -1;
+    display:          flex;
+    justify-content:  center;
+    align-items:      center;
+    background-color: #fff;
+}
+
+.bg-img-one, .bg-img-two {
+    position:  absolute;
+    width:     100%;
+    height:    100%;
+}
+
+.bg-img-one {
+    width:             100%;
+    height:            100%;
+    background-color:  green;
+    clip-path:         polygon(60% 0, 0 0, 0 60%);
+}
+
+.bg-img-two {
+    width:             100%;
+    height:            100%;
+    background-color:  red;
+    clip-path:         polygon(100% 40%, 100% 100%, 40% 100%);
+}
+
+.bg-centered-img {
+    z-index:     1;
+    max-width:   50%;
+    max-height:  50%;
+}
