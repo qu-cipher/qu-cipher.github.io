@@ -29,7 +29,6 @@
 
 .welcome-text-name {
     display: flex;
-    
     position: relative;
 }
 
@@ -54,14 +53,14 @@
     justify-content: center;
     align-items: center;
     background: yellow;
-    border-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .welcome-text-name-container h1 {
     font-size: 4.5rem;
     color: #000;
     white-space: nowrap;
-    background: yellow;
     padding: 10px;
 }
 
